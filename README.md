@@ -6,9 +6,9 @@ Podremos disparar proyectiles a los enemigos para eliminarlos y evitar perder vi
 
 ## Ejecutar el proyecto
 
-Para instalar el proyecto y probar el juego podemos clonar el repositorio mediante `git clone https://github.com/AdrianCoso/Drop`. También serviría descargarlo en formato .zip
+Para instalar el proyecto y probar el juego podemos clonar el [repositorio](https://github.com/AdrianCoso/submarino) mediante `git clone https://github.com/AdrianCoso/Drop`. También serviría descargarlo en formato .zip
 Después habrá que utilizar Android Studio para abrir el proyecto y sincronizarlo con Gradle para ejecutarlo como aplicación de escritorio.
-Para ello será necesario ejecutar la tarea desktop>Tasks>other>run.
+Para ello será necesario ejecutar la tarea desktop>Tasks>other>run. También es posible generar un archivo .jar con el comando `./gradlew desktop:dist`. El ejecutable se encontrará en desktop>build>libs
 
 
 ## Implementando las mecánicas básicas.
